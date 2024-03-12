@@ -6,8 +6,8 @@ EARTH_RADIUS = 6371  # in km
 
 def haversine(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
     """
-    Calculate the great circle distance between two points
-    on the earth (specified in decimal degrees)
+    Calculate the great circle distance (https://en.wikipedia.org/wiki/Haversine_formula)
+    between two points on the earth (specified in decimal degrees)
 
     :param lon1: longitude of point 1
     :param lat1: latitude of point 1
