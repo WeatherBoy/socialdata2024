@@ -1,3 +1,4 @@
 .vscode
 lectures/data
 venv_socialdata/
+__pycache__/
